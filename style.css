@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0;
+    width: 100%;
+    background-color: goldenrod;
+    font-weight: bold;
+}
+
+nav>a{
+    color: aliceblue;
+}
+
+nav>a:hover{
+    text-decoration: aliceblue underline;
+    text-underline-offset: 8px;
+}
+
+body{
+    background-image: url(https://media.istockphoto.com/id/1042168942/pt/foto/white-linen-fabric.jpg?s=612x612&w=0&k=20&c=dGpHItcKQPo87QZpeh8dMQT3HkVFlJ0083w65AU7LJ4=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgba(227, 218, 218, 0.734);
+    text-align: justify;
+    /* display: block; */
+}
+
+.nome{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+h3{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+h1{
+    padding-top: 1.8rem;
+    text-align: center;
+}
+
+p{
+    padding: 2rem 7rem 0rem 7rem;
+    margin: 1rem 15rem 1rem 15rem;
+}
+
+.imag{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 2%;
+}
+
+figure{
+    border: thin rgba(218, 165, 32, 0.811) solid;
+    display: flex;
+    flex-flow: column;
+    padding: 0.5rem;
+    max-width: 26rem;
+    margin: auto;
+}
+
+figcaption{
+    background-color: goldenrod;
+    color: aliceblue;
+    font: 'Courier New';
+    padding: 2%;
+    text-align: center;
+    font-weight: 900;
+}
+
+footer{
+    text-align: center;
+}
+
+#social-links{
+    display: flex;
+    padding: 24px 0;
+    font-size: 24px;
+    justify-content: center;
+}
+
+#social-links a{
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    transition: background 0.2s;
+    border-radius: 50%;
+}
+
+#social-links a:hover{
+    background: rgba(255, 255, 255, 0.2); 
+}
