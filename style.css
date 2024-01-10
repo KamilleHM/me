@@ -55,6 +55,13 @@ h1{
 p{
     padding: 2rem 7rem 0rem 7rem;
     margin: 1rem 15rem 1rem 15rem;
+    line-height: 20px;
+}
+
+#lista{
+    margin-left: 400px;
+    padding-top: 15px;
+    list-style-type: '\00BB\00A0';
 }
 
 .imag{
