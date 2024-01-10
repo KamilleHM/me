@@ -69,7 +69,6 @@ h4{
 }
 
 ul{
-    /* margin-left: 400px; */
     padding-top: 15px;
     list-style-type: '\00BB\00A0';
 }
@@ -108,7 +107,7 @@ figure{
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 260px;
+    max-width: 300px;
     margin: auto;
 }
 
@@ -119,6 +118,10 @@ figcaption{
     padding: 2%;
     text-align: center;
     font-weight: 900;
+}
+
+#imgs{
+    display: flex;
 }
 
 footer{
