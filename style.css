@@ -63,6 +63,8 @@ h3{
 h4{
     margin-left: 375px;
     padding-top: 20px;
+    color: goldenrod;
+    font-weight: bolder;
 }
 
 ul{
@@ -71,7 +73,7 @@ ul{
     list-style-type: '\00BB\00A0';
 }
 
-#trab{
+.trab{
     margin-left: 400px;
     padding-top: 15px;
     list-style-type: '\00BB\00A0';
@@ -95,8 +97,8 @@ margin-left: 400px;
 }
 
 .imag{
-    height: 25rem;
-    width: 25rem;
+    height: 250px;
+    width: 250px;
     border-radius: 2%;
 }
 
@@ -104,8 +106,8 @@ figure{
     border: thin rgba(218, 165, 32, 0.811) solid;
     display: flex;
     flex-flow: column;
-    padding: 0.5rem;
-    max-width: 26rem;
+    padding: 5px;
+    max-width: 260px;
     margin: auto;
 }
 
