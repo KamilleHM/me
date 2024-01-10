@@ -42,15 +42,6 @@ body{
     text-align: center;
     font-size: 2rem;
 }
-h3{
-    padding-top: 0.5rem;
-    text-align: center;
-    font-size: 1.5rem;
-}
-h1{
-    padding-top: 1.8rem;
-    text-align: center;
-}
 
 p{
     padding: 2rem 7rem 0rem 7rem;
@@ -58,10 +49,49 @@ p{
     line-height: 20px;
 }
 
-#lista{
+h1{
+    padding-top: 1.8rem;
+    text-align: center;
+}
+
+h3{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h4{
+    margin-left: 375px;
+    padding-top: 20px;
+}
+
+ul{
+    /* margin-left: 400px; */
+    padding-top: 15px;
+    list-style-type: '\00BB\00A0';
+}
+
+#trab{
     margin-left: 400px;
     padding-top: 15px;
     list-style-type: '\00BB\00A0';
+}
+
+#um{
+margin-left: 400px;
+}
+
+#dois{
+    margin-left: 120px;
+}
+
+#dois > h4{
+    margin-left: -20px;
+    padding-bottom: 15px;
+}
+
+.lista{
+    display: inline-block;
 }
 
 .imag{
