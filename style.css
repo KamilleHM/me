@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     font-family: 'Courier New', Courier, monospace;
-    scroll-behavior: smooth;
     text-decoration: none;
+
+    scroll-behavior: smooth;
 }
 
 nav{
@@ -20,6 +22,7 @@ nav{
 
 nav>a{
     color: aliceblue;
+    font-size: 20px;
 }
 
 nav>a:hover{
@@ -89,7 +92,7 @@ margin-left: 400px;
 
 #dois > h4{
     margin-left: -20px;
-    padding-bottom: 15px;
+    padding-bottom: 100px;
 }
 
 .lista{
@@ -125,6 +128,13 @@ figcaption{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* #portfolio{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+
+} */
 
 footer{
     text-align: center;
